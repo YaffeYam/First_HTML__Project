@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><u><h1
+        style="color: blue;">Welcome to No One L's&trade;
+    </h1></u></center>
+    <br><br><br>
+    <h2><u>Homepage</u></h2>
+    <a
+        href="Homepage.html">
+        <img src="Images/HomepageIcon.jpg" width="150" height="150">
+    </a> <br><br><br>
+    <h2><u>About Us</u></h2><br>
+    <a 
+        href="About_Us.html">
+        <img src="Images/AboutUsIcon.png" width="150" height="150">
+    </a> <br><br><br>
+    <a
+        href="Our_Vision.html">
+        <img src="Images/OurVisionIcon.jpg" width="150" height="150">
+    </a> <br><br><br>
+    <form action="ThisIsAServerAddress">
+    <label for="button"><u>Button Click Test</u></label><br>
+    <input type="button">
+    <br><br>
+    <label for="color"><u>Color Test</u></label><br>
+    <input type="color">
+    <br><br>
+    <label for="date"><u>Date Test</u></label><br>
+    <input type="date">
+    <br><br>
+    <label for="file"><u>File Test</u></label><br>
+    <input type="file">
+    <br><br><br>
+    <form action="ThisIsAServerAddress">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="password">Password Test</label><br>
+        <input type="password" name="pwd"><br><br>
+        <label for="radio">Radio Test</label><br>
+        <input type="radio" name="radio"><br><br>
+        <label for="Email">Email Test</label><br>
+        <input type="email" name="email"><br><br>
+        <label for="number">Number Test</label><br>
+        <input type="number" name="num"><br><br>
+        <label for="Search">Search Test</label><br>
+        <input type="search" name="search"><br><br>
+        <input type="submit">
+        <input type="reset">
+    </form> <br><br><br>
+    <h3><u>This is a JS button click test</u></h3>
+    <button onclick="showConfirmDialog()">Click Me</button>
+
+    <script>
+        function showConfirmDialog() {
+            var confirmation = window.confirm('Click on any of the options below');
+    
+            if (confirmation) {
+                alert('OK clicked');
+            } else {
+                alert('Cancel Clicked');
+            }
+        }
+    </script>
+</body>
+</html>
