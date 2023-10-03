@@ -70,5 +70,18 @@
             }
         }
     </script>
+    <br><br><br>
+    <h1 id="headline">Original Headline</h1>
+    <button id="changeButton">Change Headline</button>
+    <script>
+        function changeHeadline() {
+            var headline = document.getElementById("headline");
+            headline.innerText = "New Headline";
+        }
+            var button = document.getElementById("changeButton");
+            button.addEventListener("click", function () {
+                setTimeout(changeHeadline, 2000);
+            });
+    </script>
 </body>
 </html>
